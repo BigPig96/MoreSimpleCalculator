@@ -1,0 +1,7 @@
+C:\Users\Camputer\source\repos\RPNCalculator\RPNCalculator\bin\Debug\RPNCalculator.exe.config
+C:\Users\Camputer\source\repos\RPNCalculator\RPNCalculator\bin\Debug\RPNCalculator.exe
+C:\Users\Camputer\source\repos\RPNCalculator\RPNCalculator\bin\Debug\RPNCalculator.pdb
+C:\Users\Camputer\source\repos\RPNCalculator\RPNCalculator\obj\Debug\RPNCalculator.csprojAssemblyReference.cache
+C:\Users\Camputer\source\repos\RPNCalculator\RPNCalculator\obj\Debug\RPNCalculator.csproj.CoreCompileInputs.cache
+C:\Users\Camputer\source\repos\RPNCalculator\RPNCalculator\obj\Debug\RPNCalculator.exe
+C:\Users\Camputer\source\repos\RPNCalculator\RPNCalculator\obj\Debug\RPNCalculator.pdb
