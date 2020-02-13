@@ -11,15 +11,16 @@ namespace RPNCalculator
             input = ReversePolishNotation.Convert(input);
 
             var stack = new Stack<float>();
+            var digitBuilder = new StringBuilder();
             
             for (int i = 0; i < input.Length; i++)
             {
+                digitBuilder.Clear();
                 if(input[i] == ' ') continue;
 
                 if (char.IsDigit(input[i]))
                 {
-                    var digitBuilder = new StringBuilder();
-                    
+
                     while (input[i] != ' ')
                     {
                         digitBuilder.Append(input[i]);
@@ -29,7 +30,7 @@ namespace RPNCalculator
 
                     if (!float.TryParse(digitBuilder.ToString(), out float result))
                     {
-                        Console.WriteLine($"Некорректный операнд {digitBuilder}");
+                        Application.Log($"Некорректный операнд {digitBuilder}");
                         return "0";
                     }
                         
@@ -41,13 +42,14 @@ namespace RPNCalculator
                 {
                     if (stack.Count < 2)
                     {
-                        Console.WriteLine("Пропущено число перед оператором");
+                        Application.Log("Пропущено число перед оператором");
                         return "0";
                     }
                     
                     float a = stack.Pop();
                     float b = stack.Pop();
-                    stack.Push(Operation(a, b, input[i]));
+                    stack.Push((Operation(a, b, input[i])));
+                    Application.Log($"= {stack.Peek()}");
                 }
             }
 
@@ -56,7 +58,7 @@ namespace RPNCalculator
 
         private static float Operation(float a, float b, char oper)
         {
-            Console.WriteLine($"{b} {oper} {a}");
+            Application.Log($"{b} {oper} {a}");
             
             switch (oper)
             {
@@ -64,6 +66,8 @@ namespace RPNCalculator
                 case '-' : return b - a;
                 case '*' : return b * a;
                 case '/' : return b / a;
+                case '^' : 
+                    return (float) Math.Pow(Math.Abs(b), a);
             }
             
             return 0;

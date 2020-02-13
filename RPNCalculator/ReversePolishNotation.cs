@@ -65,25 +65,25 @@ namespace RPNCalculator
                 }
                 else
                 {
-                    Console.WriteLine($"Некорретный символ {input[i]}");
+                    Application.Log($"Некорретный символ {input[i]}");
                     return "0";
                 }
             }
 
             if (stack.Count == 0)
             {
-                Console.WriteLine("Операции не найдены");
+                Application.Log("Операции не найдены");
                 return "0";
             }
             
             if (openBrackets != closeBrackets)
             {
-                Console.WriteLine("Количество скобок не совпадает!");
+                Application.Log("Количество скобок не совпадает!");
                 return "0";
             }
 
             while (stack.Count > 0)
-                output.Append(stack.Pop() + " ");
+                output.Append(stack.Pop() + "");
             
             return output.ToString();
         }
