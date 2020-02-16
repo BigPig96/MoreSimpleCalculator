@@ -1,4 +1,6 @@
-﻿namespace RPNCalculator
+﻿using System;
+
+namespace RPNCalculator
 {
     class Program
     {

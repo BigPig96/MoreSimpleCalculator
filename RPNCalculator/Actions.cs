@@ -6,10 +6,18 @@ namespace RPNCalculator
 {
     public static class Actions
     {
+        private static readonly IVariables Variables = new VariablesTxt(@"{\w*}");
+        
         private static readonly Dictionary<ulong, Command> Commands = new Dictionary<ulong, Command>()
         {
             {@"\help".Hash(), new Command(@"\help", "Справка", Help)},
             {@"\calculate".Hash(), new Command(@"\calculate", "Посчитать арифметическую операцию", Calculate)},
+            {@"\addVariable".Hash(), new Command(@"\addVariable", 
+                "Сохранить новую переменную", AddVariable)},
+            {@"\readVariables".Hash(), new Command(@"\readVariables", 
+                "Вывести все сохраненные переменные", ShowAllVariables)},
+            {@"\readVariable".Hash(), new Command(@"\readVariable", 
+                "Вывести сохраненную переменную по ключу", ShowVariable)},
             {@"\clear".Hash(), new Command(@"\clear", "Очистить лог", ClearLog)},
             {@"\exit".Hash(), new Command(@"\exit", "Завершить работу приложения", Application.StopRun)}
         };
@@ -21,12 +29,37 @@ namespace RPNCalculator
             bool Condition(KeyValuePair<ulong, Command> command) => command.Key != @"\help".Hash(); 
             foreach (var command in Commands.Where(Condition))
                 Console.WriteLine($"{command.Value.Name} - {command.Value.Description}");
+            Application.Log("");
         }
 
         private static void Calculate()
         {
             Application.Log(Messages.Calculate);
-            Calculator.Calculate(Console.ReadLine());
+            Application.Log(Messages.VariablesExample);
+            string content = Console.ReadLine();
+            Calculator.Calculate(Variables.Replace(content));
+        }
+
+        private static void AddVariable()
+        {
+            Application.Log(Messages.EnterKey);
+            string key = Console.ReadLine();
+            Application.Log(Messages.EnterValue);
+            string value = Console.ReadLine();
+            Application.Log(Variables.Write(key, value) ? Messages.VariableSaved : Messages.VariableNotSaved);
+        }
+
+        private static void ShowAllVariables()
+        {
+            var variables = Variables.ReadAll();
+            foreach (var variable in variables)
+                Application.Log(variable);
+        }
+
+        private static void ShowVariable()
+        {
+            Application.Log(Messages.EnterKey);
+            Application.Log(Variables.Read(Console.ReadLine()));
         }
 
         private static void ClearLog()
