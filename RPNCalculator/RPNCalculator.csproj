@@ -53,6 +53,7 @@
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ReversePolishNotation.cs" />
+    <Compile Include="StringFunctions.cs" />
     <Compile Include="VariablesTxt.cs" />
   </ItemGroup>
   <ItemGroup>

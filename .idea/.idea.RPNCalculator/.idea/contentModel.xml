@@ -22,6 +22,7 @@
         </e>
         <e p="ReversePolishNotation.cs" t="Include" />
         <e p="RPNCalculator.csproj" t="IncludeRecursive" />
+        <e p="StringFunctions.cs" t="Include" />
         <e p="VariablesTxt.cs" t="Include" />
       </e>
       <e p="RPNCalculator.sln" t="IncludeFlat" />

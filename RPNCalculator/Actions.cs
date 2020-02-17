@@ -7,6 +7,7 @@ namespace RPNCalculator
     public static class Actions
     {
         private static readonly IVariables Variables = new VariablesTxt(@"{\w*}");
+        private static readonly StringFunctions Functions = new StringFunctions();
         
         private static readonly Dictionary<ulong, Command> Commands = new Dictionary<ulong, Command>()
         {
@@ -37,7 +38,9 @@ namespace RPNCalculator
             Application.Log(Messages.Calculate);
             Application.Log(Messages.VariablesExample);
             string content = Console.ReadLine();
-            Calculator.Calculate(Variables.Replace(content));
+            content = Variables.Replace(content);
+            content = Functions.Replace(content);
+            Calculator.Calculate(content);
         }
 
         private static void AddVariable()

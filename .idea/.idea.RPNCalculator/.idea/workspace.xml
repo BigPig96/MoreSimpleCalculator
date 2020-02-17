@@ -2,13 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3fc9ac8a-0e34-4cfd-b31e-37a2203c5c86" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/RPNCalculator/IVariables.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RPNCalculator/VariablesTxt.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RPNCalculator/StringFunctions.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.RPNCalculator/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RPNCalculator/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.RPNCalculator/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RPNCalculator/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/RPNCalculator/Actions.cs" beforeDir="false" afterPath="$PROJECT_DIR$/RPNCalculator/Actions.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RPNCalculator/Messages.cs" beforeDir="false" afterPath="$PROJECT_DIR$/RPNCalculator/Messages.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RPNCalculator/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/RPNCalculator/Program.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/RPNCalculator/RPNCalculator.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/RPNCalculator/RPNCalculator.csproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/RPNCalculator/bin/Debug/RPNCalculator.exe" beforeDir="false" afterPath="$PROJECT_DIR$/RPNCalculator/bin/Debug/RPNCalculator.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/RPNCalculator/bin/Debug/RPNCalculator.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/RPNCalculator/bin/Debug/RPNCalculator.pdb" afterDir="false" />
@@ -32,6 +29,7 @@
     <setting file="file://$PROJECT_DIR$/RPNCalculator/IVariables.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/D195DA47-F292-4AA6-AB1F-FC82F421F850/fb/33c6b5c9/String.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/RPNCalculator/Messages.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/RPNCalculator/StringFunctions.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/D195DA47-F292-4AA6-AB1F-FC82F421F850/a4/23272b24/Exception.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/RPNCalculator/Actions.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/RPNCalculator/Program.cs" root0="FORCE_HIGHLIGHTING" />
@@ -51,14 +49,15 @@
         <option value="$PROJECT_DIR$/RPNCalculator/CharExtensions.cs" />
         <option value="$PROJECT_DIR$/RPNCalculator/Command.cs" />
         <option value="$PROJECT_DIR$/RPNCalculator/Calculator.cs" />
-        <option value="$PROJECT_DIR$/RPNCalculator/ReversePolishNotation.cs" />
         <option value="$PROJECT_DIR$/RPNCalculator/Extensions.cs" />
         <option value="$PROJECT_DIR$/RPNCalculator/Program.cs" />
         <option value="$PROJECT_DIR$/RPNCalculator/TextTemplate.cs" />
         <option value="$PROJECT_DIR$/RPNCalculator/IVariables.cs" />
-        <option value="$PROJECT_DIR$/RPNCalculator/Actions.cs" />
         <option value="$PROJECT_DIR$/RPNCalculator/VariablesTxt.cs" />
         <option value="$PROJECT_DIR$/RPNCalculator/Messages.cs" />
+        <option value="$PROJECT_DIR$/RPNCalculator/ReversePolishNotation.cs" />
+        <option value="$PROJECT_DIR$/RPNCalculator/Actions.cs" />
+        <option value="$PROJECT_DIR$/RPNCalculator/StringFunctions.cs" />
       </list>
     </option>
   </component>
@@ -117,6 +116,7 @@
       <workItem from="1581846854214" duration="1279000" />
       <workItem from="1581872447191" duration="10039000" />
       <workItem from="1581882545324" duration="74000" />
+      <workItem from="1581958927933" duration="3315000" />
     </task>
     <servers />
   </component>
