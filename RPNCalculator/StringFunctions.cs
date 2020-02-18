@@ -7,7 +7,7 @@ namespace RPNCalculator
 {
     public class StringFunctions
     {
-        private const string Pattern = @"\w*\(.*\)";
+        private const string Pattern = @"\w+\([\d*\,]{0,}\)";
         private readonly Regex _regex;
 
         public StringFunctions()
@@ -17,12 +17,16 @@ namespace RPNCalculator
 
         public string Replace(string input)
         {
-            return _regex.Replace(input, match => Convert(match.Value));
+            while (_regex.Matches(input).Count > 0)
+            {
+                input = _regex.Replace(input, match => Convert(match.Value));
+            }
+
+            return input;
         }
         
         private string Convert(string name)
         {
-            Console.WriteLine(name + " Founded!");
             string[] values = name.Split(new [] {'(', ',', ')'}, StringSplitOptions.RemoveEmptyEntries);
             MethodInfo method = GetType().GetMethod(values[0]);
             if(method == null) return name;

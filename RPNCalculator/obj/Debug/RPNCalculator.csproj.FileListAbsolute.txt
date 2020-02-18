@@ -12,3 +12,10 @@ C:\Users\vr5\Desktop\Calculator\StringCalculator\RPNCalculator\obj\Debug\RPNCalc
 C:\Users\vr5\Desktop\Calculator\StringCalculator\RPNCalculator\obj\Debug\RPNCalculator.csproj.CoreCompileInputs.cache
 C:\Users\vr5\Desktop\Calculator\StringCalculator\RPNCalculator\obj\Debug\RPNCalculator.exe
 C:\Users\vr5\Desktop\Calculator\StringCalculator\RPNCalculator\obj\Debug\RPNCalculator.pdb
+C:\Users\vr5\Desktop\Calc\StringCalculator\RPNCalculator\bin\Debug\RPNCalculator.exe.config
+C:\Users\vr5\Desktop\Calc\StringCalculator\RPNCalculator\bin\Debug\RPNCalculator.exe
+C:\Users\vr5\Desktop\Calc\StringCalculator\RPNCalculator\bin\Debug\RPNCalculator.pdb
+C:\Users\vr5\Desktop\Calc\StringCalculator\RPNCalculator\obj\Debug\RPNCalculator.csprojAssemblyReference.cache
+C:\Users\vr5\Desktop\Calc\StringCalculator\RPNCalculator\obj\Debug\RPNCalculator.csproj.CoreCompileInputs.cache
+C:\Users\vr5\Desktop\Calc\StringCalculator\RPNCalculator\obj\Debug\RPNCalculator.exe
+C:\Users\vr5\Desktop\Calc\StringCalculator\RPNCalculator\obj\Debug\RPNCalculator.pdb
