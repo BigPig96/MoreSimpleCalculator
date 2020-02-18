@@ -5,3 +5,10 @@ C:\Users\Camputer\source\repos\RPNCalculator\RPNCalculator\obj\Debug\RPNCalculat
 C:\Users\Camputer\source\repos\RPNCalculator\RPNCalculator\obj\Debug\RPNCalculator.csproj.CoreCompileInputs.cache
 C:\Users\Camputer\source\repos\RPNCalculator\RPNCalculator\obj\Debug\RPNCalculator.exe
 C:\Users\Camputer\source\repos\RPNCalculator\RPNCalculator\obj\Debug\RPNCalculator.pdb
+C:\Users\vr5\Desktop\Calculator\StringCalculator\RPNCalculator\bin\Debug\RPNCalculator.exe.config
+C:\Users\vr5\Desktop\Calculator\StringCalculator\RPNCalculator\bin\Debug\RPNCalculator.exe
+C:\Users\vr5\Desktop\Calculator\StringCalculator\RPNCalculator\bin\Debug\RPNCalculator.pdb
+C:\Users\vr5\Desktop\Calculator\StringCalculator\RPNCalculator\obj\Debug\RPNCalculator.csprojAssemblyReference.cache
+C:\Users\vr5\Desktop\Calculator\StringCalculator\RPNCalculator\obj\Debug\RPNCalculator.csproj.CoreCompileInputs.cache
+C:\Users\vr5\Desktop\Calculator\StringCalculator\RPNCalculator\obj\Debug\RPNCalculator.exe
+C:\Users\vr5\Desktop\Calculator\StringCalculator\RPNCalculator\obj\Debug\RPNCalculator.pdb

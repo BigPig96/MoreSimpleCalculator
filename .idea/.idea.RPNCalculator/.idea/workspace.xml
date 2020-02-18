@@ -2,14 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3fc9ac8a-0e34-4cfd-b31e-37a2203c5c86" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/RPNCalculator/StringFunctions.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.RPNCalculator/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RPNCalculator/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.RPNCalculator/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RPNCalculator/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RPNCalculator/Actions.cs" beforeDir="false" afterPath="$PROJECT_DIR$/RPNCalculator/Actions.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RPNCalculator/RPNCalculator.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/RPNCalculator/RPNCalculator.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RPNCalculator/StringFunctions.cs" beforeDir="false" afterPath="$PROJECT_DIR$/RPNCalculator/StringFunctions.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/RPNCalculator/bin/Debug/RPNCalculator.exe" beforeDir="false" afterPath="$PROJECT_DIR$/RPNCalculator/bin/Debug/RPNCalculator.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/RPNCalculator/bin/Debug/RPNCalculator.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/RPNCalculator/bin/Debug/RPNCalculator.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/RPNCalculator/obj/Debug/RPNCalculator.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/RPNCalculator/obj/Debug/RPNCalculator.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RPNCalculator/obj/Debug/RPNCalculator.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/RPNCalculator/obj/Debug/RPNCalculator.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RPNCalculator/obj/Debug/RPNCalculator.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/RPNCalculator/obj/Debug/RPNCalculator.csprojAssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/RPNCalculator/obj/Debug/RPNCalculator.exe" beforeDir="false" afterPath="$PROJECT_DIR$/RPNCalculator/obj/Debug/RPNCalculator.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/RPNCalculator/obj/Debug/RPNCalculator.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/RPNCalculator/obj/Debug/RPNCalculator.pdb" afterDir="false" />
     </list>
@@ -19,26 +19,75 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/RPNCalculator/Program.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="112">
+              <caret line="7" column="9" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
+              <folding>
+                <marker date="1582020522367" expanded="true" signature="38:168" ph="{...}" />
+                <marker date="1582020522367" expanded="true" signature="58:166" ph="{...}" />
+                <marker date="1582020522367" expanded="true" signature="104:160" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/RPNCalculator/Application.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="160">
+              <caret line="10" column="27" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
+              <folding>
+                <marker date="1582019777013" expanded="true" signature="38:740" ph="{...}" />
+                <marker date="1582019777013" expanded="true" signature="76:738" ph="{...}" />
+                <marker date="1582019777013" expanded="true" signature="230:390" ph="{...}" />
+                <marker date="1582019777013" expanded="true" signature="428:480" ph="{...}" />
+                <marker date="1582019777013" expanded="true" signature="569:732" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/RPNCalculator/StringFunctions.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="426">
+              <caret line="34" column="12" lean-forward="true" selection-start-line="34" selection-start-column="12" selection-end-line="34" selection-end-column="12" />
+              <folding>
+                <marker date="1582025061832" expanded="false" signature="6:104" ph="..." />
+                <marker date="1582025061832" expanded="true" signature="129:1671" ph="{...}" />
+                <marker date="1582025061832" expanded="true" signature="164:1669" ph="{...}" />
+                <marker date="1582025061832" expanded="true" signature="296:357" ph="{...}" />
+                <marker date="1582025061832" expanded="true" signature="402:495" ph="{...}" />
+                <marker date="1582025061832" expanded="true" signature="548:1137" ph="{...}" />
+                <marker date="1582025061832" expanded="true" signature="1217:1663" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/D195DA47-F292-4AA6-AB1F-FC82F421F850/67/45178c8f/UInt64.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/D195DA47-F292-4AA6-AB1F-FC82F421F850/41/d82cbbd3/KeyNotFoundException.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/RPNCalculator/Command.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/RPNCalculator/IVariables.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/D195DA47-F292-4AA6-AB1F-FC82F421F850/fb/33c6b5c9/String.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/RPNCalculator/Messages.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/RPNCalculator/StringFunctions.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/D195DA47-F292-4AA6-AB1F-FC82F421F850/a4/23272b24/Exception.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/RPNCalculator/Actions.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/RPNCalculator/Program.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/RPNCalculator/ReversePolishNotation.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/RPNCalculator/Calculator.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/RPNCalculator/Extensions.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/RPNCalculator/Application.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/D195DA47-F292-4AA6-AB1F-FC82F421F850/d0/43c74ba8/Math.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/D195DA47-F292-4AA6-AB1F-FC82F421F850/fb/33c6b5c9/String.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/RPNCalculator/Calculator.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/RPNCalculator/VariablesTxt.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/RPNCalculator/Messages.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/RPNCalculator/ReversePolishNotation.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/RPNCalculator/StringFunctions.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/D195DA47-F292-4AA6-AB1F-FC82F421F850/d0/43c74ba8/Math.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/RPNCalculator/Command.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/RPNCalculator/Program.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/RPNCalculator/Application.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -50,22 +99,55 @@
         <option value="$PROJECT_DIR$/RPNCalculator/Command.cs" />
         <option value="$PROJECT_DIR$/RPNCalculator/Calculator.cs" />
         <option value="$PROJECT_DIR$/RPNCalculator/Extensions.cs" />
-        <option value="$PROJECT_DIR$/RPNCalculator/Program.cs" />
         <option value="$PROJECT_DIR$/RPNCalculator/TextTemplate.cs" />
         <option value="$PROJECT_DIR$/RPNCalculator/IVariables.cs" />
         <option value="$PROJECT_DIR$/RPNCalculator/VariablesTxt.cs" />
         <option value="$PROJECT_DIR$/RPNCalculator/Messages.cs" />
         <option value="$PROJECT_DIR$/RPNCalculator/ReversePolishNotation.cs" />
         <option value="$PROJECT_DIR$/RPNCalculator/Actions.cs" />
+        <option value="$PROJECT_DIR$/RPNCalculator/Program.cs" />
         <option value="$PROJECT_DIR$/RPNCalculator/StringFunctions.cs" />
       </list>
     </option>
   </component>
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="1912" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
+  </component>
   <component name="ProjectId" id="1XcYL2cpFk7aaPP6h4VS18uk7Sn" />
+  <component name="ProjectView">
+    <navigator currentView="SolutionExplorer" proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="AssemblyExplorer" />
+      <pane id="FileSystemExplorer" />
+      <pane id="SolutionExplorer">
+        <subPane>
+          <expand>
+            <path>
+              <item name="" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="RPNCalculator" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="RPNCalculator" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="RPNCalculator" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+        <option name="show-all-files" value="false" />
+      </pane>
+    </panes>
+  </component>
   <component name="PropertiesComponent">
     <property name="Rider.DefaultBreakpoints.AreToggled" value="true" />
     <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -117,8 +199,50 @@
       <workItem from="1581872447191" duration="10039000" />
       <workItem from="1581882545324" duration="74000" />
       <workItem from="1581958927933" duration="3315000" />
+      <workItem from="1582019805948" duration="52000" />
+      <workItem from="1582019906565" duration="5886000" />
     </task>
     <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="5938000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="1912" y="-8" width="1936" height="1056" extended-state="7" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Build" weight="0.32942432" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32942432" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="NuGet" order="7" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Database Changes" order="10" />
+      <window_info anchor="bottom" id="Unit Tests" order="11" />
+      <window_info anchor="bottom" id="Terminal" order="12" />
+      <window_info anchor="bottom" id="Event Log" order="13" side_tool="true" weight="0.32942432" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Errors In Solution" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+    </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -131,8 +255,28 @@
         <entry key="MAIN">
           <value>
             <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
               <option name="COLUMN_ORDER" />
             </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
           </value>
         </entry>
       </map>
@@ -150,5 +294,49 @@
         </breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/RPNCalculator/Application.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="10" column="27" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
+          <folding>
+            <marker date="1582019777013" expanded="true" signature="38:740" ph="{...}" />
+            <marker date="1582019777013" expanded="true" signature="76:738" ph="{...}" />
+            <marker date="1582019777013" expanded="true" signature="230:390" ph="{...}" />
+            <marker date="1582019777013" expanded="true" signature="428:480" ph="{...}" />
+            <marker date="1582019777013" expanded="true" signature="569:732" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RPNCalculator/Program.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="7" column="9" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
+          <folding>
+            <marker date="1582020522367" expanded="true" signature="38:168" ph="{...}" />
+            <marker date="1582020522367" expanded="true" signature="58:166" ph="{...}" />
+            <marker date="1582020522367" expanded="true" signature="104:160" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RPNCalculator/StringFunctions.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="426">
+          <caret line="34" column="12" lean-forward="true" selection-start-line="34" selection-start-column="12" selection-end-line="34" selection-end-column="12" />
+          <folding>
+            <marker date="1582025061832" expanded="false" signature="6:104" ph="..." />
+            <marker date="1582025061832" expanded="true" signature="129:1671" ph="{...}" />
+            <marker date="1582025061832" expanded="true" signature="164:1669" ph="{...}" />
+            <marker date="1582025061832" expanded="true" signature="296:357" ph="{...}" />
+            <marker date="1582025061832" expanded="true" signature="402:495" ph="{...}" />
+            <marker date="1582025061832" expanded="true" signature="548:1137" ph="{...}" />
+            <marker date="1582025061832" expanded="true" signature="1217:1663" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
   </component>
 </project>

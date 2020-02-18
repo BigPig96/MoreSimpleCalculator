@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Globalization;
 using System.Reflection;
 using System.Text.RegularExpressions;
 
@@ -21,6 +22,7 @@ namespace RPNCalculator
         
         private string Convert(string name)
         {
+            Console.WriteLine(name + " Founded!");
             string[] values = name.Split(new [] {'(', ',', ')'}, StringSplitOptions.RemoveEmptyEntries);
             MethodInfo method = GetType().GetMethod(values[0]);
             if(method == null) return name;
@@ -30,13 +32,22 @@ namespace RPNCalculator
             
             for (int i = 0; i < args.Length; i++)
                 args[i] = values[i + 1];
+            
 
             return method.Invoke(this, args).ToString();
         }
         
+        
+        
         public static string POW(string a, string b)
         {
-            return $"{a}^{b}";
+            if (!float.TryParse(a, NumberStyles.Float, 
+                CultureInfo.InvariantCulture.NumberFormat, out float first)) 
+                return $"{a} is not a float";
+            if (!float.TryParse(b, NumberStyles.Float, 
+                CultureInfo.InvariantCulture.NumberFormat, out float second)) 
+                return $"{b} is mot a float";
+            return Math.Pow(Math.Abs(first), second).ToString();
         }
     }
 }
