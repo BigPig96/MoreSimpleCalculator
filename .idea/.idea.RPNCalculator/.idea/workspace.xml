@@ -2,15 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3fc9ac8a-0e34-4cfd-b31e-37a2203c5c86" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.RPNCalculator/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RPNCalculator/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.RPNCalculator/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RPNCalculator/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/RPNCalculator/Extensions.cs" beforeDir="false" afterPath="$PROJECT_DIR$/RPNCalculator/Extensions.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/RPNCalculator/StringFunctions.cs" beforeDir="false" afterPath="$PROJECT_DIR$/RPNCalculator/StringFunctions.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/RPNCalculator/bin/Debug/RPNCalculator.exe" beforeDir="false" afterPath="$PROJECT_DIR$/RPNCalculator/bin/Debug/RPNCalculator.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/RPNCalculator/bin/Debug/RPNCalculator.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/RPNCalculator/bin/Debug/RPNCalculator.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RPNCalculator/obj/Debug/RPNCalculator.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/RPNCalculator/obj/Debug/RPNCalculator.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RPNCalculator/obj/Debug/RPNCalculator.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/RPNCalculator/obj/Debug/RPNCalculator.csproj.FileListAbsolute.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RPNCalculator/obj/Debug/RPNCalculator.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/RPNCalculator/obj/Debug/RPNCalculator.csprojAssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/RPNCalculator/obj/Debug/RPNCalculator.exe" beforeDir="false" afterPath="$PROJECT_DIR$/RPNCalculator/obj/Debug/RPNCalculator.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/RPNCalculator/obj/Debug/RPNCalculator.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/RPNCalculator/obj/Debug/RPNCalculator.pdb" afterDir="false" />
     </list>
@@ -24,16 +20,22 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/862B9365-843C-4BF1-BA93-210C124BB523/6f/41df563c/RegexPrefix.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/862B9365-843C-4BF1-BA93-210C124BB523/49/986ee2c6/RegexInterpreter.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/D195DA47-F292-4AA6-AB1F-FC82F421F850/fb/33c6b5c9/String.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/9AECFB6F-6EE1-4BB3-9CEC-F864D8D0E1D7/40/7365a353/TimeSpan.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/RPNCalculator/Command.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/862B9365-843C-4BF1-BA93-210C124BB523/f5/375b4ca8/RegexRunner.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/RPNCalculator/StringFunctions.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/RPNCalculator/Actions.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/RPNCalculator/Calculator.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/RPNCalculator/Extensions.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/862B9365-843C-4BF1-BA93-210C124BB523/87/ab090c5d/Regex.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/RPNCalculator/IVariables.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/862B9365-843C-4BF1-BA93-210C124BB523/6b/9134258a/ExclusiveReference.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/RPNCalculator/Application.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/RPNCalculator/ReversePolishNotation.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/862B9365-843C-4BF1-BA93-210C124BB523/fa/828794b6/RegexReplacement.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/RPNCalculator/VariablesTxt.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/D195DA47-F292-4AA6-AB1F-FC82F421F850/d0/43c74ba8/Math.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/RPNCalculator/Program.cs" root0="FORCE_HIGHLIGHTING" />
@@ -54,8 +56,8 @@
         <option value="$PROJECT_DIR$/RPNCalculator/Messages.cs" />
         <option value="$PROJECT_DIR$/RPNCalculator/ReversePolishNotation.cs" />
         <option value="$PROJECT_DIR$/RPNCalculator/Actions.cs" />
-        <option value="$PROJECT_DIR$/RPNCalculator/Extensions.cs" />
         <option value="$PROJECT_DIR$/RPNCalculator/Program.cs" />
+        <option value="$PROJECT_DIR$/RPNCalculator/Extensions.cs" />
         <option value="$PROJECT_DIR$/RPNCalculator/StringFunctions.cs" />
       </list>
     </option>
@@ -121,6 +123,7 @@
       <workItem from="1582019906565" duration="5886000" />
       <workItem from="1582027018110" duration="3074000" />
       <workItem from="1582035184640" duration="3841000" />
+      <workItem from="1582039261557" duration="2831000" />
     </task>
     <servers />
   </component>
@@ -166,6 +169,19 @@
           <properties exception="System.Threading.ThreadAbortException" displayValue="System.Threading.ThreadAbortException" />
           <option name="timeStamp" value="1" />
         </breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/RPNCalculator/Actions.cs</url>
+          <line>40</line>
+          <properties documentPath="$PROJECT_DIR$/RPNCalculator/Actions.cs" initialLine="40">
+            <startOffsets>
+              <option value="1913" />
+            </startOffsets>
+            <endOffsets>
+              <option value="1950" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>

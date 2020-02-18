@@ -8,7 +8,7 @@ namespace RPNCalculator
 {
     public class StringFunctions
     {
-        private const string Pattern = @"\w+\([\d*\.*\d*\*\,]{0,}\)";
+        private const string Pattern = @"\w+\([\d*\.*\d*+\-\*\/ ,]{0,}\)";
         private readonly Regex _regex;
 
         public StringFunctions()
@@ -36,13 +36,7 @@ namespace RPNCalculator
             if (method.GetParameters().Length != args.Length) return name;
 
             for (int i = 0; i < args.Length; i++)
-            {
-                args[i] = values[i + 1];
-//                if (values[i + 1].HaveAnyOperator())
-//                    args[i] = Calculator.Calculate(values[i + 1]);
-//                else
-//                    args[i] = values[i + 1];
-            }
+                args[i] = values[i + 1].HaveAnyOperators() ? Calculator.Calculate(values[i + 1]) : values[i + 1];
 
 
             return method.Invoke(this, args).ToString();

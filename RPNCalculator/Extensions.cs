@@ -13,7 +13,7 @@ namespace RPNCalculator
             return Operators.IndexOf(chr) != -1;
         }
 
-        public static bool HaveAnyOperator(this string str)
+        public static bool HaveAnyOperators(this string str)
         {
             return str.Count(chr => Operators.IndexOf(chr) != -1) > 0;
         }
