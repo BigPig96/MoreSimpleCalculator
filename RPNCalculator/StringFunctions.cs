@@ -7,7 +7,7 @@ namespace RPNCalculator
 {
     public class StringFunctions
     {
-        private const string Pattern = @"\w+\([\d*\,]{0,}\)";
+        private const string Pattern = @"\w+\([\d*\.*\d*\*\,]{0,}\)";
         private readonly Regex _regex;
 
         public StringFunctions()

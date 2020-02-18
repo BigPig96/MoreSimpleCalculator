@@ -5,7 +5,6 @@
       <change beforePath="$PROJECT_DIR$/RPNCalculator/StringFunctions.cs" beforeDir="false" afterPath="$PROJECT_DIR$/RPNCalculator/StringFunctions.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/RPNCalculator/bin/Debug/RPNCalculator.exe" beforeDir="false" afterPath="$PROJECT_DIR$/RPNCalculator/bin/Debug/RPNCalculator.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/RPNCalculator/bin/Debug/RPNCalculator.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/RPNCalculator/bin/Debug/RPNCalculator.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RPNCalculator/obj/Debug/RPNCalculator.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/RPNCalculator/obj/Debug/RPNCalculator.csproj.FileListAbsolute.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/RPNCalculator/obj/Debug/RPNCalculator.exe" beforeDir="false" afterPath="$PROJECT_DIR$/RPNCalculator/obj/Debug/RPNCalculator.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/RPNCalculator/obj/Debug/RPNCalculator.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/RPNCalculator/obj/Debug/RPNCalculator.pdb" afterDir="false" />
     </list>
@@ -93,17 +92,17 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/RPNCalculator/StringFunctions.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="282">
-              <caret line="24" column="25" selection-start-line="24" selection-start-column="25" selection-end-line="24" selection-end-column="25" />
+            <state relative-caret-position="96">
+              <caret line="9" column="69" lean-forward="true" selection-start-line="9" selection-start-column="69" selection-end-line="9" selection-end-column="69" />
               <folding>
-                <marker date="1582029794013" expanded="false" signature="6:104" ph="..." />
-                <marker date="1582029794013" expanded="true" signature="129:1741" ph="{...}" />
-                <marker date="1582029794013" expanded="true" signature="164:1739" ph="{...}" />
-                <marker date="1582029794013" expanded="true" signature="305:366" ph="{...}" />
-                <marker date="1582029794013" expanded="true" signature="411:616" ph="{...}" />
-                <marker date="1582029794013" expanded="true" signature="473:579" ph="{...}" />
-                <marker date="1582029794013" expanded="true" signature="669:1207" ph="{...}" />
-                <marker date="1582029794013" expanded="true" signature="1287:1733" ph="{...}" />
+                <marker date="1582030410515" expanded="false" signature="6:104" ph="..." />
+                <marker date="1582030410515" expanded="true" signature="129:1749" ph="{...}" />
+                <marker date="1582030410515" expanded="true" signature="164:1747" ph="{...}" />
+                <marker date="1582030410515" expanded="true" signature="313:374" ph="{...}" />
+                <marker date="1582030410515" expanded="true" signature="419:624" ph="{...}" />
+                <marker date="1582030410515" expanded="true" signature="481:587" ph="{...}" />
+                <marker date="1582030410515" expanded="true" signature="677:1215" ph="{...}" />
+                <marker date="1582030410515" expanded="true" signature="1295:1741" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -227,12 +226,12 @@
       <workItem from="1581958927933" duration="3315000" />
       <workItem from="1582019805948" duration="52000" />
       <workItem from="1582019906565" duration="5886000" />
-      <workItem from="1582027018110" duration="2093000" />
+      <workItem from="1582027018110" duration="3074000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8031000" />
+    <option name="totallyTimeSpent" value="9012000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -245,7 +244,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25266525" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -391,17 +389,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/RPNCalculator/StringFunctions.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="282">
-          <caret line="24" column="25" selection-start-line="24" selection-start-column="25" selection-end-line="24" selection-end-column="25" />
+        <state relative-caret-position="96">
+          <caret line="9" column="69" lean-forward="true" selection-start-line="9" selection-start-column="69" selection-end-line="9" selection-end-column="69" />
           <folding>
-            <marker date="1582029794013" expanded="false" signature="6:104" ph="..." />
-            <marker date="1582029794013" expanded="true" signature="129:1741" ph="{...}" />
-            <marker date="1582029794013" expanded="true" signature="164:1739" ph="{...}" />
-            <marker date="1582029794013" expanded="true" signature="305:366" ph="{...}" />
-            <marker date="1582029794013" expanded="true" signature="411:616" ph="{...}" />
-            <marker date="1582029794013" expanded="true" signature="473:579" ph="{...}" />
-            <marker date="1582029794013" expanded="true" signature="669:1207" ph="{...}" />
-            <marker date="1582029794013" expanded="true" signature="1287:1733" ph="{...}" />
+            <marker date="1582030410515" expanded="false" signature="6:104" ph="..." />
+            <marker date="1582030410515" expanded="true" signature="129:1749" ph="{...}" />
+            <marker date="1582030410515" expanded="true" signature="164:1747" ph="{...}" />
+            <marker date="1582030410515" expanded="true" signature="313:374" ph="{...}" />
+            <marker date="1582030410515" expanded="true" signature="419:624" ph="{...}" />
+            <marker date="1582030410515" expanded="true" signature="481:587" ph="{...}" />
+            <marker date="1582030410515" expanded="true" signature="677:1215" ph="{...}" />
+            <marker date="1582030410515" expanded="true" signature="1295:1741" ph="{...}" />
           </folding>
         </state>
       </provider>
