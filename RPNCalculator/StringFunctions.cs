@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Globalization;
 using System.Reflection;
+using System.Runtime.Remoting.Messaging;
 using System.Text.RegularExpressions;
 
 namespace RPNCalculator
@@ -17,7 +18,7 @@ namespace RPNCalculator
 
         public string Replace(string input)
         {
-            while (_regex.Matches(input).Count > 0)
+            while (_regex.Match(input).Length > 0)
             {
                 input = _regex.Replace(input, match => Convert(match.Value));
             }
@@ -33,10 +34,16 @@ namespace RPNCalculator
 
             var args = new object[values.Length - 1];
             if (method.GetParameters().Length != args.Length) return name;
-            
+
             for (int i = 0; i < args.Length; i++)
+            {
                 args[i] = values[i + 1];
-            
+//                if (values[i + 1].HaveAnyOperator())
+//                    args[i] = Calculator.Calculate(values[i + 1]);
+//                else
+//                    args[i] = values[i + 1];
+            }
+
 
             return method.Invoke(this, args).ToString();
         }
@@ -51,7 +58,7 @@ namespace RPNCalculator
             if (!float.TryParse(b, NumberStyles.Float, 
                 CultureInfo.InvariantCulture.NumberFormat, out float second)) 
                 return $"{b} is mot a float";
-            return Math.Pow(Math.Abs(first), second).ToString();
+            return Math.Pow(Math.Abs(first), second).ToString(CultureInfo.InvariantCulture);
         }
     }
 }

@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Linq;
+using Enumerable = System.Linq.Enumerable;
 
 namespace RPNCalculator
 {
@@ -9,6 +11,11 @@ namespace RPNCalculator
         public static bool IsOperator(this char chr)
         {
             return Operators.IndexOf(chr) != -1;
+        }
+
+        public static bool HaveAnyOperator(this string str)
+        {
+            return str.Count(chr => Operators.IndexOf(chr) != -1) > 0;
         }
         
         public static ulong Hash(this string read)
